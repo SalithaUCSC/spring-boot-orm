@@ -1,4 +1,4 @@
-package com.rest.orm.entities;
+package com.rest.orm.entities.onetoone;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;

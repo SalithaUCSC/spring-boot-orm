@@ -1,7 +1,7 @@
-package com.rest.orm.controllers;
+package com.rest.orm.controllers.onetoone;
 
-import com.rest.orm.entities.User;
-import com.rest.orm.services.UserService;
+import com.rest.orm.entities.onetoone.User;
+import com.rest.orm.services.onetoone.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

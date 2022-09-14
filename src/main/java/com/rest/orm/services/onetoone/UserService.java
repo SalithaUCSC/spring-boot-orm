@@ -1,7 +1,7 @@
-package com.rest.orm.services;
+package com.rest.orm.services.onetoone;
 
-import com.rest.orm.entities.User;
-import com.rest.orm.respositories.UserRepository;
+import com.rest.orm.entities.onetoone.User;
+import com.rest.orm.respositories.onetoone.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
