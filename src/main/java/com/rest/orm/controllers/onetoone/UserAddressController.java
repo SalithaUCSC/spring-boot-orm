@@ -23,7 +23,7 @@ public class UserAddressController {
 
     @PostMapping(path = "/users")
     public ResponseEntity<User> createUser(@RequestBody User user) {
-        return new ResponseEntity<>(userService.createUser(userService.createUser(user)), HttpStatus.CREATED);
+        return new ResponseEntity<>(userService.createUser(user), HttpStatus.CREATED);
     }
 
 }
