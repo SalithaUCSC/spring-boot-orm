@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/orm-db
+    username: root
+    password: Admin22@mysql
+  jpa:
+    hibernate.ddl-auto: create-drop
+    generate-ddl: true
+    show-sql: true
