@@ -21,7 +21,6 @@ public class PostCommentController {
     @Autowired
     private PostService postService;
 
-
     @GetMapping(path = "/comments")
     public ResponseEntity<List<Comment>> getComments() {
         return ResponseEntity.ok().body(commentService.getAllComments());
