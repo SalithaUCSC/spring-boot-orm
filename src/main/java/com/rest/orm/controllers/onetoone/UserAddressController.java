@@ -26,4 +26,10 @@ public class UserAddressController {
         return new ResponseEntity<>(userService.createUser(user), HttpStatus.CREATED);
     }
 
+    @DeleteMapping(path = "/users/{id}")
+    public ResponseEntity<?> deleteUser(@PathVariable Long id) {
+        userService.deleteUser(id);
+        return ResponseEntity.ok("User Deleted");
+    }
+
 }
